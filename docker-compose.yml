@@ -6,8 +6,6 @@ services:
       target: production
     ports:
       - "80:80"
-    env_file:
-      - .env
     volumes:
       - frontend:/var/lib/frontend/data
     networks:
