@@ -1,8 +1,8 @@
-# Тестовое задание Aspirity
+# Test task Aspirity
 
-## Установка
+## Installation
 
-Используя npm (порт 5173)
+Using npm (port 5173)
 
 ```bash
   git clone https://github.com/NikSerdu/aspirity-test-task
@@ -11,10 +11,12 @@
   npm run dev
 ```
 
-Используя docker compose (порт 80)
+Using docker compose (port 80)
 
 ```bash
   git clone https://github.com/NikSerdu/aspirity-test-task
   cd aspirity-test-task
   docker compose up -d
 ```
+## Demo
+[Link to demo](https://aspirity-test-task.vercel.app/)
