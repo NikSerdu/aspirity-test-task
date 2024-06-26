@@ -1,4 +1,4 @@
-import { ILegendItem } from "../../types/legend_item.interface";
+import { ILegendItem } from "../../../types/legend_item.interface";
 
 export const getChartConfig = (data: ILegendItem[], setActiveId: any) => {
   return {

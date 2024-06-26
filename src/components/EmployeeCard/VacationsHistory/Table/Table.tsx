@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ITableItem } from "../../../types/table_item.interface";
+import { ITableItem } from "../../../../types/table_item.interface";
 import TableItem from "./TableItem/TableItem";
 
 type TypeProps = {

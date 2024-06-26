@@ -1,6 +1,6 @@
 import { FC, HTMLAttributes } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { ITableItem } from "../../../../types/table_item.interface";
+import { ITableItem } from "../../../../../types/table_item.interface";
 
 type TypeProps = {
   table_item: ITableItem;

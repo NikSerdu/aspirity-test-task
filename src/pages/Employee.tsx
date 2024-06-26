@@ -1,5 +1,5 @@
 import { FC } from "react";
-import EmployeeCard from "../components/lk/EmployeeCard";
+import EmployeeCard from "../components/EmployeeCard/EmployeeCard";
 
 const EmployeePage: FC = () => {
   return (

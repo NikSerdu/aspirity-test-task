@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import { FaXmark } from "react-icons/fa6";
 import Modal from "react-responsive-modal";
 import "react-responsive-modal/styles.css";
-import { vacation_data as data } from "../../data/vacation_data";
+import { vacation_data as data } from "../../../data/vacation_data";
 import Table from "./Table/Table";
 const VacationsHistory: FC = () => {
   const [modalIsOpen, setIsOpen] = useState<boolean>(false);

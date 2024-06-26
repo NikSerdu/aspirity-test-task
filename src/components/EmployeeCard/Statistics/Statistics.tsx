@@ -2,8 +2,8 @@ import { Tooltip } from "antd";
 import { FC, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import { CiCircleInfo } from "react-icons/ci";
-import { chart_data } from "../../data/chart_data";
-import { useChart } from "../../hooks/useChart";
+import { chart_data } from "../../../data/chart_data";
+import { useChart } from "../../../hooks/useChart";
 import LegendItem from "./LegendItem/LegendItem";
 import { getChartConfig } from "./chart_config";
 const Statistics: FC = () => {
